@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muras — A Spiritual Memoir</title>
+<meta name="description" content="RELI 230 · Reflection & Learning Journal, Prompt #1: Begin Your Spiritual Memoir.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ───────────── Top bar + menu ───────────── -->
+<header class="topbar">
+  <a href="#home" class="wordmark">MURAS<span>/ a spiritual memoir</span></a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="menu" aria-hidden="true">
+  <ol>
+    <li><a href="#deer">The Horned Mother Deer</a></li>
+    <li><a href="#sacred">Everything Is Sacred</a></li>
+    <li><a href="#kyrchyn">A Summer in Kyrchyn</a></li>
+    <li><a href="#wolf">The Wolf</a></li>
+    <li><a href="#komuz">The Komuz</a></li>
+    <li><a href="#table">At the Table</a></li>
+    <li><a href="#unjust">A Ceremony I Question</a></li>
+    <li><a href="#far">Far From Home</a></li>
+    <li><a href="#muras">Muras</a></li>
+  </ol>
+</nav>
+
+<!-- ───────────── Hero: drawn Tien Shan landscape ───────────── -->
+<section id="home" class="hero">
+  <svg class="land" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#8fc7e8"/><stop offset=".55" stop-color="#cfe9ef"/><stop offset="1" stop-color="#f1f5e4"/>
+      </linearGradient>
+      <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3f8fb5"/><stop offset="1" stop-color="#1f5d7a"/>
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#sky)"/>
+    <circle class="sun" cx="1230" cy="190" r="62" fill="#f4c35a"/>
+    <g class="clouds" fill="#fff" opacity=".85">
+      <ellipse cx="300" cy="170" rx="110" ry="22"/><ellipse cx="360" cy="152" rx="60" ry="22"/>
+      <ellipse cx="900" cy="120" rx="140" ry="20"/><ellipse cx="960" cy="104" rx="70" ry="20"/>
+    </g>
+    <!-- far snow peaks: pillars holding up the sky -->
+    <path class="ridge r0" fill="#b9cbd6" d="M0 470 L120 360 L210 410 L330 250 L430 380 L520 330 L640 200 L760 350 L860 300 L980 170 L1100 330 L1200 280 L1320 210 L1440 340 L1600 290 V900 H0Z"/>
+    <path fill="#f7fbff" d="M330 250 L372 304 L352 300 L336 318 L314 292 L296 298Z M640 200 L690 262 L664 256 L646 276 L622 250 L602 256Z M980 170 L1034 236 L1006 230 L988 250 L964 224 L942 232Z M1320 210 L1364 262 L1340 258 L1324 274 L1304 250 L1286 256Z"/>
+    <path class="ridge r1" fill="#5e9a6a" d="M0 560 L160 450 L300 520 L470 420 L600 500 L760 410 L900 490 L1060 400 L1210 480 L1380 420 L1600 500 V900 H0Z"/>
+    <!-- the lake -->
+    <path fill="url(#lake)" d="M0 640 C300 610 700 600 1000 612 C1250 622 1450 612 1600 630 V700 H0Z"/>
+    <path fill="#fff" opacity=".35" d="M180 628 h160 v2 h-160z M620 616 h220 v2 h-220z M1180 624 h140 v2 h-140z"/>
+    <path class="ridge r2" fill="#3f7d4a" d="M0 700 C200 660 380 690 560 668 C760 644 960 690 1160 664 C1340 642 1480 670 1600 660 V900 H0Z"/>
+    <path class="ridge r3" fill="#2c5f37" d="M0 780 C260 740 520 770 800 748 C1080 726 1340 760 1600 740 V900 H0Z"/>
+    <!-- yurt -->
+    <g transform="translate(1080 690)">
+      <path fill="#f3ead8" d="M-54 0 V-36 Q0 -74 54 -36 V0Z"/>
+      <path fill="#b8503f" d="M-54 -30 H54 V-24 H-54Z"/>
+      <path fill="#6b4a2f" d="M-12 0 V-24 H12 V0Z"/>
+      <circle cx="0" cy="-60" r="7" fill="#e3a24f"/>
+    </g>
+    <!-- horses and sheep on the meadow -->
+    <g fill="#3a2a1d" class="herd">
+      <path d="M430 752 h34 l6 -10 h10 l-4 12 v14 h-4 v-10 h-34 v10 h-4 v-10 l-4 -2z"/>
+      <path d="M500 760 h30 l5 -9 h9 l-4 11 v12 h-4 v-9 h-30 v9 h-4 v-9 l-3 -2z"/>
+    </g>
+    <g fill="#f5f2ea">
+      <ellipse cx="640" cy="772" rx="11" ry="7"/><ellipse cx="670" cy="778" rx="11" ry="7"/><ellipse cx="700" cy="770" rx="11" ry="7"/><ellipse cx="728" cy="780" rx="11" ry="7"/>
+    </g>
+  </svg>
+
+  <div class="hero-title">
+    <p class="kicker">RELI 230 · Journal Prompt #1 · Begin Your Spiritual Memoir</p>
+    <h1>Muras</h1>
+    <p class="sub">What was left from our ancestors, kept as sacred.</p>
+  </div>
+  <a href="#deer" class="scroll-cue" aria-label="Scroll down">Scroll</a>
+</section>
+
+<main>
+
+<!-- ───────────── Opening ───────────── -->
+<section class="section opening">
+  <p class="reveal big">As I grew up in a Muslim family, most of what I know is related to that. And we have old traditions as Kyrgyz people. From the traditions that were left from my ancestors, we see everything as sacred: the sun, the rain, nature, the river, and the lake I live near.</p>
+</section>
+
+<!-- ───────────── 1. The Horned Mother Deer ───────────── -->
+<section id="deer" class="section">
+  <div class="section-head reveal">
+    <span class="kicker">01</span>
+    <h2>The Horned Mother Deer</h2>
+    <p class="lede">Мүйүздүү Эне Бугу</p>
+  </div>
+  <div class="two">
+    <div class="reveal">
+      <p>We believe that our nation was saved by the deer. We have a legend, passed down by our ancestors, about the Horned Mother Deer, and that is what we believe is most sacred. It explains the survival of the early people, and therefore it had a big influence on our Kyrgyz tribal confederation. That is why the biggest clan of the Kyrgyz people is called <em>Bugu</em>, which means the deer.</p>
+      <!-- TODO: retell the legend here in 2–3 sentences of your own words (the children, the mother deer who lost her fawn, her milk in the mountains). -->
+      <p>I am Bugu. Over time it had sub-clans, and I am <em>Yrysray</em>, the people next to the lake.</p>
+    </div>
+    <div class="reveal">
+      <p>I learned about it at school from my Kyrgyz language teacher. It really excited me, and that is where I started to learn the history of the Kyrgyz people: how we used to span all the way to the Yenisei River, battling, and how our grandfathers were the real heroes and the soldiers who protected us and our neighbours.</p>
+      <div class="antlers" aria-hidden="true">
+        <svg viewBox="0 0 200 160"><path d="M100 150 V92 M100 110 C70 96 60 70 64 40 M64 70 C50 64 40 52 36 36 M66 52 C76 44 80 30 78 16 M100 110 C130 96 140 70 136 40 M136 70 C150 64 160 52 164 36 M134 52 C124 44 120 30 122 16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── 2. Everything is sacred ───────────── -->
+<section id="sacred" class="section sacred">
+  <div class="section-head reveal">
+    <span class="kicker">02</span>
+    <h2>Everything Is Sacred</h2>
+  </div>
+  <div class="cards reveal">
+    <article><span class="ico">⛰</span><h3>Mountains</h3><p>As nomadic people, we look at mountains and peaks as pillars holding up the sky.</p></article>
+    <article><span class="ico">☀</span><h3>Sun &amp; rain</h3><p>We see everything as sacred: the sun, the rain, nature, the river, and the lake.</p></article>
+    <article><span class="ico">🔥</span><h3>Burning grass</h3><p>We burn grass, hoping it will scare the bad spirits.</p></article>
+    <article><span class="ico">✋</span><h3>The right side</h3><p>We do everything starting with our right hand or our right leg.</p></article>
+  </div>
+  <!-- TODO (optional): add cards for water (suu eesi), the sacred trees with cloth (jula), and the horse — in your own words. -->
+</section>
+
+<!-- ───────────── 3. Kyrchyn ───────────── -->
+<section id="kyrchyn" class="section">
+  <div class="section-head reveal">
+    <span class="kicker">03</span>
+    <h2>A Summer in Kyrchyn</h2>
+    <p class="lede">No phone, no electricity. Water from the river, heat from the fire.</p>
+  </div>
+
+  <p class="reveal narrow">I got to live by the mountains, very far from civilization, in a place called Kyrchyn, one of the most famous places in Kyrgyzstan right now. I used to live there during the summer. We had a lot of horses and sheep, and because everything is green and the grass is enough for everybody, during that time I understood and got to know my own culture, what is sacred or not, and how close we are to nature. Living in the yurt, no phone, no electricity, water from the river, heat from the fire. It was a wonderful experience, completely devoted to nature itself.</p>
+
+  <div class="photos reveal">
+    <figure><img src="media/kyrchyn-1.jpg" alt="Kyrchyn" onerror="this.closest('figure').remove()"></figure>
+    <figure><img src="media/kyrchyn-2.jpg" alt="Kyrchyn" onerror="this.closest('figure').remove()"></figure>
+    <figure><img src="media/kyrchyn-3.jpg" alt="Kyrchyn" onerror="this.closest('figure').remove()"></figure>
+  </div>
+
+  <h3 class="reveal day-title">A day</h3>
+  <ol class="day reveal">
+    <li><b>Morning</b><p>Wake up in the morning, collect the horses and milk them. After drinking very warm milk, I bring more milk to my aunt.</p></li>
+    <li><b>Kymyz</b><p>Next she would make kymyz out of it. Everything is homemade.</p></li>
+    <li><b>The sheep</b><p>Next we would let the sheep go out, to a specific place.</p></li>
+    <li><b>The hunt</b><p>My brother and I would go hunting, usually rabbits, or a deer if we got lucky, and fish.</p></li>
+    <li><b>The yaks</b><p>We would go up high to check on our yaks at the top of the mountains. We would just count them and come back, because usually they can defend themselves from the wolves.</p></li>
+    <li><b>The prayer</b><p>Then we would come back and eat. We would pray for the food, for nature, for the mountains. And we pray that there is going to be rain, because our animals would die without the grass if there is a drought.</p></li>
+  </ol>
+</section>
+
+<!-- ───────────── 4. The wolf ───────────── -->
+<section id="wolf" class="section wolf">
+  <div class="wolf-inner">
+    <span class="kicker reveal">04</span>
+    <h2 class="reveal">The Wolf</h2>
+    <p class="reveal">One of the things I noticed is how we call a predator not by its name. Like the wolf: even though we have a direct word for it, we used to call it the <em>dog-eater</em>, the killer, being afraid that they can come at any time and attack our animals. We have had cases where we lost many sheep right by our house.</p>
+    <blockquote class="pull reveal">We know they will come once in a while, and we see it as a gift. Rather let them take an animal than a child or a person. We know that they are hungry; that is why they had to come down.</blockquote>
+  </div>
+</section>
+
+<!-- ───────────── 5. Komuz ───────────── -->
+<section id="komuz" class="section">
+  <div class="section-head reveal">
+    <span class="kicker">05</span>
+    <h2>The Komuz</h2>
+    <p class="lede">For a grandfather I never met.</p>
+  </div>
+  <div class="komuz-grid">
+    <div class="strings reveal" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div>
+      <p class="reveal">When I play the komuz, I feel how my ancestors used to live for thousands of years before me: learning more about them, how they used to feel, and what they did day to day.</p>
+      <p class="reveal">My mother used to tell me how her father was really good at it. She missed him a lot, because she lost him during her childhood. I never saw my grandpa from my mother's side, and that is why I was inspired to learn. I went to music school and finished my music degree there. Seeing my mom happy made me happy.</p>
+      <p class="reveal">I used to play at the ceremonies of our relatives and at any functions, entertaining everybody. Being the joy of the community helped me realise how I could bring joy to everybody. The elders praised me. They used to call me a future <em>akyn</em>, a very respected person. They saw it as sacred too.</p>
+      <audio class="reveal" controls preload="none" src="media/komuz.mp3" onerror="this.remove()"></audio>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── 6. At the table ───────────── -->
+<section id="table" class="section">
+  <div class="section-head reveal">
+    <span class="kicker">06</span>
+    <h2>At the Table</h2>
+    <p class="lede">Every family member has a dedicated part.</p>
+  </div>
+  <p class="reveal narrow">In our family gatherings, in the room or in the yurt, the elders have to sit at the top. When they are given food, they are given the most respected part of the sheep, horse or cow, dedicated just for them. Every family member has a dedicated part of the animal that is boiled. Men and women get different parts, and if someone mistakenly gives the wrong one, it is considered disrespect. This taught everybody respect for each other and for the elders from childhood. I have seen all of this in person.</p>
+
+  <div class="portions reveal">
+    <div class="who" role="tablist" aria-label="Who gets which part"></div>
+    <article class="portion-card" aria-live="polite"><h3></h3><p></p></article>
+  </div>
+
+  <div class="two feasts">
+    <div class="reveal">
+      <h3>Nooruz &amp; sumolok</h3>
+      <p>Nooruz is a new year for us, because our calendar was different. We make <em>sumolok</em>, which is made from a lot of things, in respect of a mother who had nothing to feed her children. She used everything she had and boiled it for three days and nights, singing to her children that it would be ready soon. Sometimes it even has stones. I see it as very caring.</p>
+      <p>Because my mom is the wife of the eldest son, she has helpers, the wives of the younger brothers, and they usually cook it.</p>
+    </div>
+    <div class="reveal">
+      <h3>Weddings</h3>
+      <p>We have traditions like the wedding, where both families celebrate together.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── 7. A ceremony I question ───────────── -->
+<section id="unjust" class="section unjust">
+  <div class="section-head reveal">
+    <span class="kicker">07</span>
+    <h2>A Ceremony I Question</h2>
+  </div>
+  <div class="narrow">
+    <p class="reveal">But there are ceremonies that I believe are unjust and very unfair. For example, if you liked a girl, you could take her in an arranged marriage, which was very popular. My grandmother was kidnapped and became a wife for my grandpa. She used to tell me about it.</p>
+    <p class="reveal">She was not angry. She told me that she, her friends and her relatives all came to their houses this way, as the culture was, because the duty of a man was to sustain the family and make sure everybody was happy. So she was fine with that.</p>
+    <p class="reveal">It was very popular, but now everybody is against it. Just fifty years ago it was different. When I think about it, it was crazy. Now we oppose it, because the thought that my daughter or my sister could be kidnapped makes me feel bad.</p>
+  </div>
+</section>
+
+<!-- ───────────── 8. Far from home ───────────── -->
+<section id="far" class="section far">
+  <div class="section-head reveal">
+    <span class="kicker">08</span>
+    <h2>Far From Home</h2>
+  </div>
+  <blockquote class="proverb reveal">
+    Баткан күн кайра чыгат, бирок жоголгон Мекен кайтып келбейт. Ошондуктан ата журтту көздүн карегиндей сактоо ыйык парз.
+    <!-- TODO: add your own English translation of the proverb on the line below. -->
+    <cite>Kyrgyz saying</cite>
+  </blockquote>
+  <p class="reveal narrow">Being very far from my own country, where I was born, sometimes makes me question: maybe I am lost, very far away; maybe I came too far from Kyrgyzstan. But one thing is true: I miss the people, the nature and the culture. The distance has changed how I see my country, and how I see the world, where people have to leave their own town and their family to seek knowledge and chase their dreams. That breaks my heart. But being very far strengthens my feelings for my hometown and my country, and I fall in love with it even more.</p>
+</section>
+
+<!-- ───────────── 9. Muras ───────────── -->
+<section id="muras" class="section muras">
+  <span class="kicker reveal">09</span>
+  <h2 class="reveal">Muras</h2>
+  <p class="reveal">Everything I have said here changed how I view the world, where nature and humans blend into one and live together in peace. Living with my parents and relatives, learning all these things from the elders, I really do care about my traditions, what we see as sacred, and nature.</p>
+  <blockquote class="pull reveal">I care about nature and traditions because they bring peace to the community, trust and respect, keeping everybody on the same page, and because we keep as sacred what was left to us by our ancestors: <em>Muras</em>.</blockquote>
+</section>
+
+<!-- ───────────── Connections to the readings (TODO) ─────────────
+  "Connections" is one third of the grade. Uncomment this section and write it yourself:
+  how your memories connect to the Preface and Chapter One of Climate Anxiety and Spiritual Resilience.
+
+<section id="readings" class="section readings">
+  <div class="section-head reveal">
+    <span class="kicker">10</span>
+    <h2>Connections to the Readings</h2>
+  </div>
+  <div class="read-grid reveal">
+    <div><h3>The Preface</h3><p>…</p></div>
+    <div><h3>Chapter One: spirituality</h3><p>…</p></div>
+    <div><h3>Rain, drought and a changing climate</h3><p>…</p></div>
+  </div>
+</section>
+-->
+
+</main>
+
+<footer class="footer">
+  <p>RELI 230 · Week Two · Personal Reflection &amp; Learning Journal, Prompt #1 — Begin Your Spiritual Memoir</p>
+  <p class="disclosure">The stories and words on this page are my own. I used an AI tool (Claude) to ask me reflection questions, lay out the web page, and correct spelling. It did not write my reflection. The landscape is a drawing made for this page.</p>
+  <a href="#home">Back to the mountains ↑</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
