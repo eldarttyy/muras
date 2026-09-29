@@ -64,12 +64,12 @@
 
   /* ───────── 3. A day in Kyrchyn: the sun crosses the sky ───────── */
   const DAY = [
-    ['Dawn', 'Morning', 'Wake up in the morning, collect the horses and milk them. After drinking very warm milk, I bring more milk to my aunt.', '#f3b58a', '#f7e3c4'],
-    ['Early morning', 'Kymyz', 'Next she would make kymyz out of it. Everything is homemade.', '#9fcbe6', '#f1ead0'],
-    ['Morning', 'The sheep', 'Next we would let the sheep go out, to a specific place.', '#7fb9dc', '#d8ecd9'],
-    ['Midday', 'The hunt', 'My brother and I would go hunting, usually rabbits, or a deer if we got lucky, and fish.', '#5ea7d6', '#cfe9ef'],
-    ['Afternoon', 'The yaks', 'We would go up high to check on our yaks at the top of the mountains. We would just count them and come back, because usually they can defend themselves from the wolves.', '#7fb9dc', '#e6efd4'],
-    ['Evening', 'The prayer', 'Then we would come back and eat. We would pray for the food, for nature, for the mountains. And we pray that there is going to be rain, because our animals would die without the grass if there is a drought.', '#e58c5a', '#f4c98a'],
+    ['Dawn', 'Morning', 'I wake early, gather the horses and milk them. First a cup of warm milk for me, then the rest goes to my aunt.', '#f3b58a', '#f7e3c4'],
+    ['Early morning', 'Kymyz', 'She turns the milk into kymyz. Everything we eat and drink is made by hand.', '#9fcbe6', '#f1ead0'],
+    ['Morning', 'The sheep', 'We lead the sheep out to their pasture.', '#7fb9dc', '#d8ecd9'],
+    ['Midday', 'The hunt', 'My brother and I go hunting, usually for rabbits, a deer if we are lucky, and we fish.', '#5ea7d6', '#cfe9ef'],
+    ['Afternoon', 'The yaks', 'We climb high to check on our yaks near the summits. We only count them and come back down; they can defend themselves against wolves.', '#7fb9dc', '#e6efd4'],
+    ['Evening', 'The prayer', 'Back home we eat, and we pray: for the food, for nature, for the mountains. And we pray for rain, because in a drought the grass dies, and without grass the animals die too.', '#e58c5a', '#f4c98a'],
   ];
   const sky = $('.day-sky'), dBody = $('.day-body'), dDots = $('.day-dots');
   let d = 0;
@@ -137,13 +137,13 @@
 
   /* ───────── 6. At the table: who gets which part (from my own account) ───────── */
   const PORTIONS = [
-    ['The elders', 'They sit at the top, and they are given the most respected part of the sheep, horse or cow, dedicated just for them.'],
-    ['My father', 'He used to get the rump of the sheep, or the meaty parts like the shoulders or the hips, because he is the eldest son of his family.'],
-    ['The youngest boy', 'The head of the sheep is given to the youngest boy in the house where the ceremony is, usually older than twelve. Every father has to teach his son how to cut it. You cut half into small pieces and give them to everybody else, to show respect and effort; the other half you eat.'],
-    ['Favourite brother', 'The ears go to your favourite brother, to make sure you do not hurt his feelings, as a sign of respect.'],
+    ['The elders', 'They sit in the place of honour and are served the most respected part of the animal, reserved only for them.'],
+    ['My father', 'As the eldest son of his family, he receives the rump, or the meatiest parts: the shoulders or the hips.'],
+    ['The youngest boy', 'The sheep\'s head goes to the youngest boy of the house, usually over twelve. Every father teaches his son how to carve it. He cuts half into small pieces and shares them with everyone, a sign of respect and effort, and eats the other half himself.'],
+    ['Favourite brother', 'The ears go to your favourite brother, so his feelings are never left out. It is a sign of respect.'],
     ['Sister-in-law', 'The tongue goes to the favourite sister-in-law.'],
-    ['The children', 'As kids we were usually given the legs of the sheep and the cleaned intestines. Later on I got the neck and the ribs.'],
-    ['The one who cuts', 'Usually it is done by one of our relatives who is really good at it, and he eventually teaches a few students how to do it.'],
+    ['The children', 'As children we got the legs and the cleaned intestines. As I grew older, I was given the neck and the ribs.'],
+    ['The one who carves', 'The carving is done by a relative who is truly skilled at it, and over time he teaches a few students to do it too.'],
   ];
   const who = $('.who'), pc = $('.portion-card');
   PORTIONS.forEach(([name], i) => {

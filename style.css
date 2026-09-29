@@ -268,3 +268,23 @@ audio { width: 100%; margin-top: 16px; }
   .reveal, .lineage li, .wolf-name span { opacity: 1; transform: none; transition: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* ───── video backgrounds (clips credited in the footer) ───── */
+.bg-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.band { position: relative; min-height: 80vh; display: grid; place-items: center; overflow: hidden; text-align: center; }
+.band .bg-video { opacity: .55; }
+.band::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(var(--pine), rgba(14, 29, 21, .35) 30%, rgba(14, 29, 21, .35) 70%, var(--pine)); }
+.band-inner { position: relative; z-index: 2; padding: 0 var(--gutter); max-width: 1000px; }
+.band-line { margin: 18px 0 0; font: 300 clamp(32px, 4.6vw, 64px)/1.15 var(--serif); text-shadow: 0 2px 30px rgba(0, 0, 0, .5); }
+
+.wolf .bg-video { opacity: .22; filter: grayscale(.4); }
+.wolf::before { content: ""; position: absolute; inset: 0; z-index: 0; background: linear-gradient(rgba(10, 20, 17, .9), rgba(10, 20, 17, .35) 40%, rgba(10, 20, 17, .9)); }
+.wolf .eyes { z-index: 1; }
+
+.muras { max-width: none; overflow: hidden; }
+.muras .bg-video { opacity: .3; }
+.muras::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(var(--pine), rgba(14, 29, 21, .5) 35%, rgba(14, 29, 21, .5) 65%, var(--pine)); }
+.muras-inner { position: relative; z-index: 2; max-width: 900px; margin: 0 auto; }
+
+.legend { font-size: 1.12em; font-style: italic; color: var(--snow); border-left: 2px solid var(--sun); padding-left: 20px; }
+.proverb .translation { display: block; margin-top: 16px; font-size: .72em; font-style: italic; color: var(--snow); }
