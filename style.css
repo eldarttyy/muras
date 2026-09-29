@@ -288,3 +288,9 @@ audio { width: 100%; margin-top: 16px; }
 
 .legend { font-size: 1.12em; font-style: italic; color: var(--snow); border-left: 2px solid var(--sun); padding-left: 20px; }
 .proverb .translation { display: block; margin-top: 16px; font-size: .72em; font-style: italic; color: var(--snow); }
+
+/* ───── 10. readings ───── */
+.read-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.read-grid article { background: var(--pine-2); padding: 36px 30px; }
+.read-grid h3 { margin: 10px 0 16px; color: var(--meadow); }
+.read-grid .book { color: var(--mist); font-size: .95em; padding-left: 16px; border-left: 1px solid var(--sun); }
